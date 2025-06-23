@@ -13,7 +13,7 @@ public class DBConnection {
                 conn = DriverManager.getConnection(
                     "jdbc:mysql://localhost:3306/food_project",
                     "root",
-                    "Bharath@123"
+                    "your password"
                 );
             }
         } catch (Exception e) {
